@@ -55,13 +55,7 @@ df = df %>%
 wordcloud2(df)
 
 
-#now, you can improve your wordcloud2 and make it better:)
-
-#Tip1:  you can use it as "a comparison tool".so, u can execute all these codes
-#for all your corpora :))
-
-#Tip2: Change the Colors! go to https://imagecolorpicker.com/en and upload your favorite vibrant pic from 
-#your PC to this website. then you can find your favorite colors codes and change your wordcloud2 colors!
+#now, you can improve your wordcloud2 and make it better by chaning its colors:)
 
 pic.colors = c('#fa5d62', '#fdd124', '#2ebab1', '#86edfa', '#bc3a7e', '#dbcdd7')
 pic.background = '#342554'
@@ -81,20 +75,3 @@ wordcloud2(df,
            minSize = 5,
            rotateRatio = 0)
 
-
-
-#Tip5: Masks[Documentation in Description] by custom image file like 'png' 
-#masalan shekle wordcloud2 ro mese logoye Twitter dar biyari!
-#or you can specify a shape for it like diamond or heart!
-#or make a specific letter by Lettercloud command [LETTERCLOUDDF, "PEACE"] : masalan plot dar ghaleb kalameye
-#peace" bashe ya dar ghalebe harfe "R"!
-
-
-#Tip6: Stem text: baraye inke bejaye {teacher, teaching, teach, etc.} faghat yedoone teach dashte bashim.
-#albate ba in ravash yeseri kalamat stemeshoon naghes mishe k inja mitooni ba tavajjoh be context i k toosh 
-#hasti, explore koni che kalameyi boode!
-
-#Tip7: Using N-grams instead of single words :)))
-
-
-#Tip8: color and divide words by meaning :) 
