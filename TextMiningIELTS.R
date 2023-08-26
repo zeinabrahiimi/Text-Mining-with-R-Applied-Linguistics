@@ -9,8 +9,7 @@ library(readr)
 library(dplyr)
 
 
-docs <- Corpus(DirSource('E:/M/TextMiningR/IELTSfolder')) #the txt file is in the folder. SO you should open folder not 
-# txt.
+docs <- Corpus(DirSource('E:/M/TextMiningR/IELTSfolder')) 
 inspect(docs)
 
 docs = docs %>%
