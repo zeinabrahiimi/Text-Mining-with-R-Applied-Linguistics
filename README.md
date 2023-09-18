@@ -1,1 +1,2 @@
-
+## R Text Mining and Word Cloud Visualization Project for IELTS Text Data
+This R project is specifically designed for text mining and creating a word cloud from a collection of IELTS text documents to visualize word frequency patterns within the IELTS text data.
